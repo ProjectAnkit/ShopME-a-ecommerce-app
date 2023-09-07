@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "148107313668",
+    "project_id": "e-commerce-eceef",
+    "storage_bucket": "e-commerce-eceef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148107313668:android:95d1d2f10c4c0d7180eb51",
+        "android_client_info": {
+          "package_name": "com.projectAnkit.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148107313668-6uike0rg01938eigo0m359jdvtgvudqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtVeJtVKnxTwD4uQ23qcEUs7YyTsk-H-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148107313668-6uike0rg01938eigo0m359jdvtgvudqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
