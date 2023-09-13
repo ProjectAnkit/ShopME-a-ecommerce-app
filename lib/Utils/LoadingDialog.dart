@@ -11,7 +11,7 @@ class Loadingdialog{
         return const AlertDialog(
           backgroundColor: Colors.white,
           actions: [
-            Center(child: SpinKitThreeBounce(color: Colors.deepPurple,))
+            Center(child: SpinKitThreeBounce(color: Colors.black,))
           ],
         );
       });

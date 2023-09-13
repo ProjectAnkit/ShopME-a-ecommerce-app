@@ -29,7 +29,7 @@ class _CodePageState extends State<CodePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.black,
       ),
 
       body: Column(
@@ -55,7 +55,7 @@ class _CodePageState extends State<CodePage> {
                 borderRadius: BorderRadius.circular(7.r),  
                 inactiveColor: Colors.grey,
                 selectedColor: Colors.grey,
-                activeColor: Colors.deepPurple,
+                activeColor: Colors.black,
                 borderWidth: 2.w,   
               ),
               appContext: context, 
@@ -80,7 +80,7 @@ class _CodePageState extends State<CodePage> {
                 duration: const Duration(milliseconds: 300),
                 height: 60.h,
                 width: 130.w,
-                decoration: BoxDecoration(color: Colors.deepPurple,borderRadius: BorderRadius.circular(55)
+                decoration: BoxDecoration(color: Colors.black,borderRadius: BorderRadius.circular(55)
                 ,boxShadow: [
                   buttonpressed?
                   const BoxShadow()

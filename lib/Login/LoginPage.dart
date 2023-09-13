@@ -74,7 +74,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor: Colors.deepPurple,),
+      appBar: AppBar(backgroundColor: Colors.black,),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -83,12 +83,12 @@ class _LoginPageState extends State<LoginPage> {
             ),
         
             Container(
-              decoration: const BoxDecoration(color: Colors.deepPurple),
+              decoration: const BoxDecoration(color: Colors.white),
               child:  Center(
                 child: SizedBox(
                   height: 260.h,
                   width: 260.w,
-                  child: Image(image: AssetImage("assets/shopping-cart.png"))),
+                  child: Image(image: AssetImage("assets/Shopping.png"))),
               ),
             ),
             
@@ -109,14 +109,14 @@ class _LoginPageState extends State<LoginPage> {
              Padding(
                padding:  EdgeInsets.symmetric(vertical: 8.0.h,horizontal: 8.0.w),
                child: Container(
-                decoration: BoxDecoration(border: Border.all(color: Colors.deepPurple),borderRadius: BorderRadius.circular(5.r)),
+                decoration: BoxDecoration(border: Border.all(color: Colors.grey),borderRadius: BorderRadius.circular(5.r)),
                 child: Padding(
                   padding:  EdgeInsets.symmetric(horizontal: 12.0.w,vertical: 6.h),
                   child: Row(
                     children: [
                       Padding(
                         padding: EdgeInsets.only(right: 20.0.w),
-                        child: Text("+91",style: GoogleFonts.poppins(color: Colors.black,fontSize: 16.sp),),
+                        child: Text("+91",style: GoogleFonts.poppins(color: Colors.black,fontSize: 18.sp),),
                       ),
                       SizedBox(
                         width: MediaQuery.of(context).size.width*0.7,
@@ -126,7 +126,7 @@ class _LoginPageState extends State<LoginPage> {
                             maxLength: 10,
                             keyboardType: TextInputType.number,
                             expands: false,
-                            cursorColor: Colors.deepPurple,
+                            cursorColor: Colors.black,
                             style: GoogleFonts.poppins(color: Colors.black,fontSize: 18.sp),
                             decoration: InputDecoration( 
                               counterText: "",
@@ -160,7 +160,7 @@ class _LoginPageState extends State<LoginPage> {
                 duration: const Duration(milliseconds: 300),
                 height: 60.h,
                 width: 130.w,
-                decoration: BoxDecoration(color: Colors.deepPurple,borderRadius: BorderRadius.circular(55.r)
+                decoration: BoxDecoration(color: Colors.black,borderRadius: BorderRadius.circular(55.r)
                 ,boxShadow: [
                   buttonpressed?
                   const BoxShadow()
@@ -190,7 +190,7 @@ class _LoginPageState extends State<LoginPage> {
                   onTap: (){
                     
                   },
-                  child: Text(" Skip",style: GoogleFonts.poppins(color: Colors.deepPurple,fontSize: 16.sp),)),
+                  child: Text(" Skip",style: GoogleFonts.poppins(color: Colors.blue,fontSize: 16.sp),)),
                ],
              )
           ],
